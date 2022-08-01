@@ -75,6 +75,7 @@ filme?.days.map((dia) => {
         //   }
 
         const Container = styled.div`
+        width: 374px;
         `
         const Footer = styled.div`
        display: flex;

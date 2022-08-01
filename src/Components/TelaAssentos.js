@@ -130,19 +130,6 @@ export default function TelaAssentos(props) {
     )
 }
 
-// function montarFooter() {
-//     if(sessao !== null) {
-//       return <>
-//         <img src={sessao.movie.posterURL} alt={sessao.movie.title} />
-//         <div>
-//           <p>{sessao.movie.title}</p>
-//           <p>{sessao.day.weekday} - {sessao.name}</p>
-//         </div>
-//       </>
-//     } else {
-//       return <p>Carregando...</p>;
-//     }
-//   }
 
 const Container = styled.div`
 p{
@@ -167,6 +154,7 @@ color: #293845;
 `
 const Botao = styled.div`
  display: flex;
+ width: 374px;
     align-items: center;
     justify-content: center;
     margin-bottom: 20px;
