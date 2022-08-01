@@ -169,6 +169,7 @@ const Informacoes4 = styled.div`
 display: flex;
 align-items: center;
 justify-content: center;
+width: 374px;
 margin-top: 40px;
 button{
     width: 225px;
