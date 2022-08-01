@@ -17,8 +17,6 @@ export default function TelaAssentos(props) {
     const [dadosCompra, setDadosCompra] = useState({ nome: "", cpf: "" });
 
 
-    console.log(assentosSelecionados)
-
     useEffect(() => {
         const promise = axios.get(URL);
         promise.then(response => {

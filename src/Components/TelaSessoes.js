@@ -17,7 +17,6 @@ useEffect(() => {
     const promise = axios.get(URL);
        promise.then((response) => {
         const {data} = response;
-        console.log(data)
         setFilme(data);
        });
        promise.catch(() => {

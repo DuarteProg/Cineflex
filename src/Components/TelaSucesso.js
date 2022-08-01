@@ -7,7 +7,7 @@ export default function TelaSucesso(props) {
 
     const { reserva } = props;
     const { filme, dia, horario, assentos, comprador } = reserva;
-    console.log(dia)
+
     const numeroAssentos = [...assentos.values()];
 
     return (
