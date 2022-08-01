@@ -5,18 +5,18 @@ export default function Assento(props) {
     const { id, numero, disponivel, selecionado, aoSelecionar } = props;
 
     function selecionarAssento() {
-        if(!disponivel) alert("Seat not available!");
+        if (!disponivel) alert("Seat not available!");
         else aoSelecionar(id, numero);
     }
-    
-    
-    console.log(disponivel)
+
+
+
     return (
         <Posicao >
 
             <Tela disponivel={disponivel}
-            selecionado={selecionado}
-            onClick={selecionarAssento}>
+                selecionado={selecionado}
+                onClick={selecionarAssento}>
                 <h2>{numero}</h2>
             </Tela>
         </Posicao>
@@ -24,10 +24,10 @@ export default function Assento(props) {
 }
 function corAssento(selecionado, disponivel) {
 
-     if (selecionado) return "#8DD7CF"; 
+    if (selecionado) return "#8DD7CF";
     else if (disponivel) return "#C3CFD9";
     else return "#FBE192"
-    
+
 }
 
 
